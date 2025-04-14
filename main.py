@@ -24,7 +24,7 @@ def getWeather():
         city=textfield.get()
 
         # geopy is used to get the location (latitude & longitude) of the city
-        geolocator = Nominatim(user_agent="jadin_python_weather_app ")
+        geolocator = Nominatim(user_agent="your_python_weather_app ")
         location = geolocator.geocode(city)
 
         # get the timezone based on coordinates
